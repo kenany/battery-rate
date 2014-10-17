@@ -1,0 +1,31 @@
+{
+  "name": "battery-rate",
+  "version": "0.0.0",
+  "description": "Get the rate of (dis)charge of a battery",
+  "keywords": [
+    "battery"
+  ],
+  "repository": "KenanY/battery-rate",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "battery-status": "^1.0.1",
+    "first-line": "^1.0.1",
+    "lodash.isfunction": "^2.4.1"
+  },
+  "devDependencies": {
+    "lodash.isnumber": "^2.4.1",
+    "tape": "^3.0.0"
+  }
+}
