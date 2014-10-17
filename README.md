@@ -7,7 +7,7 @@ Get a battery's (dis)charge rate. Probably only works on Linux.
 ## Example
 
 ``` javascript
-var batteryRate = require('battery-discharge');
+var batteryRate = require('battery-rate');
 
 batteryRate('BAT1', function(error, rate) {
   if (error) {

@@ -1,9 +1,10 @@
 var batteryRate = require('../');
 
-batteryRate('BAT1', function(error, batteryRate) {
+batteryRate('BAT1', function(error, rate) {
   if (error) {
     throw error;
   }
 
-  console.log(batteryRate);
+  console.log(rate);
+  // => -9.106
 });
