@@ -2,6 +2,7 @@ var path = require('path');
 var firstLine = require('first-line');
 var isFunction = require('lodash.isfunction');
 var batteryStatus = require('battery-status');
+var batteryPath = require('battery-path');
 
 function batteryRate(battery, callback) {
   if (isFunction(battery)) {
@@ -9,12 +10,12 @@ function batteryRate(battery, callback) {
     battery = 'BAT0';
   }
 
-  var bstr = path.resolve('/sys/class/power_supply/', battery, 'power_now');
+  var bstr = path.resolve(batteryPath(battery), 'power_now');
   getRate(bstr, function(error, rate) {
     if (error) {
 
       // try alternate location
-      bstr = path.resolve('/sys/class/power_supply/', battery, 'current_now');
+      bstr = path.resolve(batteryPath(battery), 'current_now');
       getRate(bstr, callback);
       return;
     }
