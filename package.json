@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "lodash.isnumber": "^3.0.3",
-    "tape": "^4.5.1"
+    "tape": "^4.6.2"
   }
 }
