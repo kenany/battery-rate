@@ -28,6 +28,6 @@
   "devDependencies": {
     "@kenan/renovate-config": "^1.4.0",
     "lodash.isnumber": "^3.0.3",
-    "tape": "^4.5.1"
+    "tape": "^4.13.3"
   }
 }
