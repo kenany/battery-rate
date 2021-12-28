@@ -1,7 +1,5 @@
 # battery-rate
 
-[![Dependency Status][gemnasium-svg]][gemnasium]
-
 Get a battery's (dis)charge rate. Probably only works on Linux.
 
 ## Example
@@ -36,7 +34,3 @@ var battery-rate = require('battery-rate');
 Calls `callback(error, rate)`, where `error` is any _Error_ encountered and
 _Number_ `rate` is the current rate of charge/discharge in watts of _String_
 `battery` (which defaults to `'BAT0'`).
-
-
-   [gemnasium]: https://gemnasium.com/KenanY/battery-rate
-   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/battery-rate.svg
