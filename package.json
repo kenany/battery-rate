@@ -1,6 +1,6 @@
 {
   "name": "battery-rate",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Get the rate of (dis)charge of a battery",
   "keywords": [
     "battery"
