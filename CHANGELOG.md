@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/KenanY/battery-rate/compare/2.0.0...2.0.1) (2023-06-03)
+
+
+### Bug Fixes
+
+* **deps:** first-line@3.0.1 ([0c49f89](https://github.com/KenanY/battery-rate/commit/0c49f899231e716b27cc5633b4ef7185b9edd0d9))
+
 ## [2.0.0](https://github.com/KenanY/battery-rate/compare/1.0.4...2.0.0) (2023-06-03)
 
 
