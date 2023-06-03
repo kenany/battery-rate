@@ -1,8 +1,10 @@
-var path = require('path');
-var firstLine = require('first-line');
-var isFunction = require('lodash.isfunction');
-var batteryStatus = require('battery-status');
-var batteryPath = require('battery-path');
+'use strict';
+
+const path = require('path');
+const firstLine = require('first-line');
+const isFunction = require('lodash.isfunction');
+const batteryStatus = require('battery-status');
+const batteryPath = require('battery-path');
 
 function batteryRate(battery, callback) {
   if (isFunction(battery)) {

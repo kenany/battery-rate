@@ -17,10 +17,11 @@
     "test": "test"
   },
   "engines": {
-    "node": "12 || 14 || >=16"
+    "node": "16 || 18 || >=20"
   },
   "scripts": {
-    "test": "tape test/index.js"
+    "test": "tape test/index.js",
+    "release": "semantic-release"
   },
   "dependencies": {
     "battery-path": "^1.0.0",
@@ -29,7 +30,11 @@
     "lodash.isfunction": "^3.0.9"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "lodash.isnumber": "^3.0.3",
+    "semantic-release": "^21.0.3",
     "tape": "^5.6.3"
   }
 }

@@ -1,7 +1,10 @@
-var batteryDischarge = require('../');
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
-var isNumber = require('lodash.isnumber');
+'use strict';
+
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+const isNumber = require('lodash.isnumber');
+
+const batteryDischarge = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
