@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/battery-rate/compare/2.0.1...3.0.0) (2023-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v16 is no longer supported.
+
+### Features
+
+* drop Node.js v16 ([83de4da](https://github.com/kenany/battery-rate/commit/83de4da676032b4adfe7d9245bf78aeecb8f33b3))
+
 ## [2.0.1](https://github.com/KenanY/battery-rate/compare/2.0.0...2.0.1) (2023-06-03)
 
 
